@@ -930,7 +930,7 @@ git push -u origin main
 
 ---
 
-# 34. Complete Concept Map
+# 32. Complete Concept Map
 
 ```text
 CI/CD
@@ -969,7 +969,7 @@ CI/CD
 
 ---
 
-# 35. Learning Outcomes
+# 33. Learning Outcomes
 
 This project demonstrates the following concepts:
 
@@ -992,7 +992,7 @@ This project demonstrates the following concepts:
 
 ---
 
-# 36. Final Takeaway
+# 34. Final Takeaway
 
 The basic CI pipeline from the session is:
 
@@ -1048,30 +1048,6 @@ GitHub Actions
 ```
 
 The project demonstrates how **GitHub Actions can automatically test, validate, build, package, and deliver an application whenever code changes are pushed to the repository.**
-
----
-
-# 37. Conclusion
-
-The completed project implements a practical CI/CD pipeline using GitHub Actions.
-
-The CI stage ensures that:
-
-- The application is tested.
-- Basic security checks are performed.
-- The application builds successfully.
-- Build artifacts are stored.
-
-The CD stage then:
-
-- Builds a Docker image.
-- Authenticates with GitHub Container Registry.
-- Publishes the Docker image.
-- Makes the application available as a deployable container image.
-
-This demonstrates the core concepts of **CI/CD, GitHub Actions, workflows, jobs, steps, runners, secrets, artifacts, testing, building, Docker, and automated pipeline execution**.
-
-The next step after this project would be to connect the CD pipeline to an actual deployment target such as **Kubernetes, AWS, Azure, or another cloud platform**.
 
 ---
 
